@@ -1,7 +1,7 @@
 <?php
 echo 'hello php!';
 echo "\n";
-
+//1
 $name = "古賀大樹";
 if ($name == "古賀大樹") {
     echo "私は古賀大樹です。";
@@ -9,7 +9,7 @@ if ($name == "古賀大樹") {
     echo "あなたの名前ではありません。";
 } 
 echo "\n";
-
+//2
 $total2 = 0;
 echo $total2;
 echo "\n";
@@ -19,15 +19,14 @@ for ($i = 0; $i <= 10000; $i++) {
 }
 echo $total2;
 echo "\n";
-
+//3
 $bag = array("メロン", "イチゴ", "スイカ", "なし", "ぶどう");
 
 foreach($bag as $reizouko){
     echo $reizouko;
     echo "\n";
 }
- 
- 
+//4 
 $start = 1;
 $end = 100;
 
