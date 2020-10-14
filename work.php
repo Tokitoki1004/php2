@@ -14,7 +14,7 @@ $total2 = 0;
 echo $total2;
 echo "\n";
 
-for ($i = 0; $i <= 10000; $i++) {
+for ($i = 1; $i <= 10000; $i++) {
   $total2 += $i;
 }
 echo $total2;
